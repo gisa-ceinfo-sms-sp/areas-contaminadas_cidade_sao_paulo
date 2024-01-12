@@ -3,6 +3,65 @@
 
 Link para acessar dados dinâmicos (geowebservice) via GEOSampa: http://wms.geosampa.prefeitura.sp.gov.br/geoserver/geoportal/wms?service=WMS&version=1.1.0&request=GetMap&layers=MapaBase_Politico,area_contaminada_reabilitada_svma,equipamento_saude_coordenadoria_regional,equipamento_saude_supervisao_tecnica&styles=&bbox=341000,7390000,345000,7400000&width=1820&height=820&srs=EPSG:31983&format=application/openlayers
 
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mapa com Legenda</title>
+  <link rel="stylesheet" href="https://openlayers.org/en/latest/css/ol.css" type="text/css">
+  <script src="https://openlayers.org/en/latest/build/ol.js"></script>
+</head>
+<body>
+
+  <div id="map" class="map"></div>
+  <div id="legenda" class="legenda"></div>
+
+  <script>
+    var layers = [
+      'MapaBase_Politico',
+      'area_contaminada_reabilitada_svma',
+      'vw_wfs_favela_geosampa',
+      'equipamento_saude_coordenadoria_regional',
+      'equipamento_saude_supervisao_tecnica',
+      'equipamento_saude_abrangencia_ubs'
+    ];
+
+    var layerObjects = layers.map(function(layerName) {
+      return new ol.layer.Tile({
+        source: new ol.source.TileWMS({
+          url: 'http://wms.geosampa.prefeitura.sp.gov.br/geoserver/geoportal/wms',
+          params: {'LAYERS': layerName, 'TILED': true},
+          serverType: 'geoserver'
+        })
+      });
+    });
+
+    var map = new ol.Map({
+      layers: layerObjects,
+      target: 'map',
+      view: new ol.View({
+        projection: 'EPSG:31983',
+        center: [342500, 7395000],
+        zoom: 14
+      })
+    });
+
+    // Adicione uma camada de controle para a legenda
+    var layerSwitcher = new ol.control.LayerSwitcher({
+      target: 'legenda'
+    });
+    map.addControl(layerSwitcher);
+  </script>
+
+</body>
+</html>
+
+
+
+
+
+
+
 Aparência de exibição da tela: ![image](https://github.com/gisa-ceinfo-sms-sp/areas-contaminadas_cidade_sao_paulo/assets/75272641/0cb45bae-1b96-4b56-847d-7e93e6ed5f84)
 
 
