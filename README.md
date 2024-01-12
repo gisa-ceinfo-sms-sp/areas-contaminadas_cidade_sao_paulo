@@ -1,11 +1,8 @@
 # areas-contaminadas_cidade_sao_paulo
 <strong>Mapa dinâmico com as áreas contaminadas recuperadas, limites vigentes das áreas de abrangência de UBS e outros territórios de interesse da SMS-SP</strong>
 
-Link para acessar dados dinâmicos (geowebservice) via GEOSampa: http://wms.geosampa.prefeitura.sp.gov.br/geoserver/geoportal/wms?service=WMS&version=1.1.0&request=GetMap&layers=MapaBase_Politico,area_contaminada_reabilitada_svma,equipamento_saude_coordenadoria_regional,equipamento_saude_supervisao_tecnica&styles=&bbox=341000,7390000,345000,7400000&width=1820&height=820&srs=EPSG:31983&format=application/openlayers
-
-
-<iframe src="(http://wms.geosampa.prefeitura.sp.gov.br/geoserver/geoportal/wms?service=WMS&version=1.1.0&request=GetMap&layers=MapaBase_Politico,area_contaminada_reabilitada_svma,equipamento_saude_coordenadoria_regional,equipamento_saude_supervisao_tecnica&styles=&bbox=341000,7390000,345000,7400000&width=1820&height=820&srs=EPSG:31983&format=application/openlayers)" width="840" height="680"></iframe>
-
+<p>Link para acessar dados dinâmicos (geowebservice) via GEOSampa:</p>
+http://wms.geosampa.prefeitura.sp.gov.br/geoserver/geoportal/wms?service=WMS&version=1.1.0&request=GetMap&layers=MapaBase_Politico,area_contaminada_reabilitada_svma,equipamento_saude_coordenadoria_regional,equipamento_saude_supervisao_tecnica&styles=&bbox=341000,7390000,345000,7400000&width=1820&height=820&srs=EPSG:31983&format=application/openlayers
 
 Aparência de exibição da tela: ![image](https://github.com/gisa-ceinfo-sms-sp/areas-contaminadas_cidade_sao_paulo/assets/75272641/0cb45bae-1b96-4b56-847d-7e93e6ed5f84)
 
