@@ -7,7 +7,7 @@ Link para acessar: http://wms.geosampa.prefeitura.sp.gov.br/geoserver/geoportal/
 
 Fontes:
 
-Todas as camadas são obtidas a partir de conexões WFS com a Infraestrutura Municipal de Dados de São Paulo (IMDE-SP) e refletem o dados mais recente disponibilizado na infraestrutura pelos órgãos produtores primários. O catálogo de metadados na íntegra pode ser acessado em: https://metadados.geosampa.prefeitura.sp.gov.br/geonetwork/srv/por/catalog.search;jsessionid=DFEC77321EE2B48CE4A2F2219EDABA2B#/home
+Todas as camadas são obtidas a partir de conexões do tipo <i>WebFeatureService (WFS)</i>, estabelecidas com a Infraestrutura Municipal de Dados de São Paulo (IMDE-SP), que refletem os dados mais recentes disponibilizado na infraestrutura oficial pelos órgãos produtores primários. O catálogo de metadados na íntegra pode ser acessado em: https://metadados.geosampa.prefeitura.sp.gov.br/geonetwork/srv/por/catalog.search;jsessionid=DFEC77321EE2B48CE4A2F2219EDABA2B#/home
 
 - MapaBase Politico - GEOSampa/GEOInfo/SMUL-SP (<a href="https://metadados.geosampa.prefeitura.sp.gov.br/geonetwork/srv/por/catalog.search#/metadata/cb23313b-a613-4ee6-b2ba-cda7ecfb05cc/formatters/xsl-view?root=div&view=advanced&approved=true">metadados</a>) 
 - Área Contaminada Reabilitada - CLA/CTGEO/SVMA-SP (<a href="https://metadados.geosampa.prefeitura.sp.gov.br/geonetwork/srv/por/catalog.search#/metadata/ca351b78-bbd3-423d-97a8-ae9b3345d390/formatters/xsl-view?root=div&view=advanced&approved=true">metadados</a>) 
