@@ -3,7 +3,7 @@
 
 <strong>1. Utilizando dados dinâmicos (geowebservice)</strong>
 # GEOSampa
-Link para acessar: http://wms.geosampa.prefeitura.sp.gov.br/geoserver/geoportal/wms?service=WMS&version=1.1.0&request=GetMap&layers=MapaBase_Politico,area_contaminada_reabilitada_svma,equipamento_saude_coordenadoria_regional,equipamento_saude_supervisao_tecnica,equipamento_saude_abrangencia_ubs,equipamento_saude_cobertura_familia,equipamento_saude_ubs_posto_centro&styles=&bbox=341000,7390000,345000,7400000&width=1820&height=820&srs=EPSG:31983&format=application/openlayers#toggle
+Link para acessar: http://wms.geosampa.prefeitura.sp.gov.br/geoserver/geoportal/wms?service=WMS&version=1.2.0&request=GetMap&layers=MapaBase_Politico,area_contaminada_reabilitada_svma,equipamento_saude_coordenadoria_regional,equipamento_saude_supervisao_tecnica,equipamento_saude_abrangencia_ubs,equipamento_saude_cobertura_familia,equipamento_saude_ubs_posto_centro&styles=&bbox=341000,7390000,345000,7400000&width=1820&height=820&srs=EPSG:31983&format=application/openlayers#toggle
 
 Fontes:
 
