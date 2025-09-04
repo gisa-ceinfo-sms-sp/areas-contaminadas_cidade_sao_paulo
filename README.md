@@ -20,5 +20,15 @@ Todas as camadas são obtidas a partir de conexões do tipo <i>WebFeatureService
 Aparência de exibição da tela: ![image](https://github.com/gisa-ceinfo-sms-sp/areas-contaminadas_cidade_sao_paulo/assets/75272641/744a6d2c-4ae7-42cf-a313-4ff6a31d9adb)
 
 
+Registro - Digital Object Identifier (DOI)*\
+[![Thumbnail_ZENODO](https://zenodo.org/badge/DOI/10.5281/zenodo.17057715.svg)](https://doi.org/10.5281/zenodo.17057715)
+
+*The DOI Foundation is a not-for-profit organization. We govern the Digital Object Identifier (DOI) system on behalf of the agencies who manage DOI registries and provide services to their respective communities. We are the registration authority for the ISO standard (ISO 26324) for the DOI system and we are governed by our Registration Agencies.
+
+Indexed in\
+[<img width="20%" alt="larefopenaire" src="https://github.com/user-attachments/assets/03f136bb-2114-4f62-ab36-f9025b7e7d65" />](https://explore.openaire.eu/search/result?pid=10.5281/zenodo.17057715)
+
+
+
 
 
